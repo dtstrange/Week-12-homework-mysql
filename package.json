@@ -1,0 +1,23 @@
+{
+  "name": "week-12-homework-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtstrange/Week-12-homework-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtstrange/Week-12-homework-mysql/issues"
+  },
+  "homepage": "https://github.com/dtstrange/Week-12-homework-mysql#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
