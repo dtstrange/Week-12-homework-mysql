@@ -15,7 +15,7 @@ function start() {
   //displaying table from database
   connection.query('SELECT * FROM products', function (error, results, fields) {
     if (error) throw error;
-    console.log(results);
+    console.log(JSON.stringify(results, null, 2));
     afterConnection();
   });
 
